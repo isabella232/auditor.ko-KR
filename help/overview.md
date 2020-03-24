@@ -4,15 +4,15 @@ seo-description: Adobe Experience Platform Auditor에 대한 기술 설명서.
 seo-title: 'Adobe Experience Platform Auditor에 대한 기술 설명서 '
 title: Adobe Experience Platform Auditor 개요 - 기술 설명서
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
 
 
 # Adobe Experience Platform Auditor 개요 {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor는 [ObservePoint](https://www.observepoint.com/)와 함께 개발된 Adobe Experience Platform의 서비스로, 디지털 구현의 유효성을 검사하는 전문 도구입니다. 이 안내서에는 Auditor를 위한 기술 설명서와 자체 도움말이 포함되어 있습니다.
+Adobe Experience Platform Auditor는 [ObservePoint](https://www.observepoint.com/)와 함께 개발된 Adobe Experience Platform의 서비스로, 디지털 구현의 유효성을 검사하는 전문 도구입니다. 이 안내서에는 기술 문서와 감사자를 위한 자체 도움말이 포함되어 있습니다.
 
 Adobe Experience Cloud 사용자는 Auditor를 통해 Adobe Experience Cloud 구현에 대한 등급을 매기고 개선 방법에 대한 의견을 제시하는 보고서를 받게 됩니다. Auditor는 Adobe 제품을 통해 개별적으로나 집합적으로 더 많은 가치를 얻을 수 있도록 지원합니다.
 
