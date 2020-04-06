@@ -4,8 +4,8 @@ seo-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 �
 seo-title: 태그 유무
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
    <td colname="col3"> <p>Advertising Cloud Launch Extension을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics - DOM에서 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ko_KR/sc/implement/" format="https" scope="external"> 추가 정보</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics - DOM에서 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics 태그가 검색되지 않았습니다. </p> </td> 
    <td colname="col3"> <p>최신 버전의 Analytics를 설치합니다. </p> </td> 
   </tr> 
@@ -77,7 +77,7 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph">AMCV_</span> 쿠키를 찾을 수 없습니다. <span class="codeph">VisitorAPI.js</span> 코드에서 방문자 개체를 인스턴스화해야 합니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> AMCV_</span> 쿠키를 찾을 수 없습니다. <span class="codeph"> VisitorAPI.js</span> 코드에서 방문자 개체를 인스턴스화해야 합니다. </p> </td> 
    <td colname="col3"> <p> DTM 구현인 경우 AdobeOrg ID가 MCID 도구에 제대로 입력되었는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
