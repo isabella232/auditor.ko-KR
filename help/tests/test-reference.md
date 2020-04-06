@@ -4,8 +4,8 @@ seo-description: 이 참조는 Auditor가 수행하는 테스트에 대한 자�
 seo-title: 테스트 참조
 title: 테스트 참조
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
 * Audience Manager
 * 캠페인
 * Launch
-
-## 테스트 카테고리 {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-이 테스트 참조는 테스트를 다음 카테고리로 나눕니다.
