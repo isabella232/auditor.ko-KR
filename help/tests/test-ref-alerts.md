@@ -4,8 +4,8 @@ seo-description: 이 참조는 Auditor가 테스트에 대해 표시하는 경�
 seo-title: 경고
 title: 경고
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       CAce6db25bc8c443409f0fcc5ac9d622c3 
-    </draft-comment> <p><b>DTM - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ko_KR/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 추가 정보</a> </p> 
+    </draft-comment> <p><b>DTM - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 추가 정보</a> </p> 
     <draft-comment>
       TEa9df69942f404055a64262889c8b21d3 
     </draft-comment> </td> 
@@ -77,7 +77,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 자체 호스팅</b> </p> <p>가중치: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ko_KR/dtm/deployment.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 자체 호스팅</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/client-side-information.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> DTM 라이브러리는 <span class="filepath">assets.adobedtm.com</span>의 Adobe Akamai 인스턴스에서 호스팅 중입니다. </p> <p> 자체 호스팅은 캐시 제어를 통해 웹 사이트 성능을 더욱 강력하게 제어하고 타사 스크립트 의존성을 줄이며 게시 프로세스를 더욱 강력하게 제어할 수 있기 때문에 DTM을 로드하는 데 권장되는 방법입니다. DTM 라이브러리는 자체 웹 호스팅 또는 CDN을 통해 호스팅 및 관리할 수 있습니다. </p> </td> 
    <td colname="col3"> <p>자체 호스팅은 페이지에서 DTM을 로드하는 데 권장되는 방법입니다. Akamai CDN을 통한 DTM 호스팅은 대부분의 경우 작동하지만 자체 호스팅이 페이지 성능을 향상시킵니다. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Experience Cloud ID 서비스 - AdobeOrg 하나만 사용</b> </p> <p>가중치: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/ko_KR/mcvid/mcvid_id_request.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b> Experience Cloud ID 서비스 - AdobeOrg 하나만 사용</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/id-request.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>일반적인 MCID 구현에서는 단일 AdobeOrg를 사용해야 합니다. </p> </td> 
    <td colname="col3"> <p>이 구현에 대해 여러 AdobeOrg ID가 있는지 확인합니다. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> 추가 정보</a> </p> 
+    </draft-comment> <p><b>Launch - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 추가 정보</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 자체 호스팅</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Launch로 시작하기</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external"> Launch 비동기식 배포</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 자체 호스팅</b> </p> <p>가중치: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Launch로 시작하기</a> </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Launch 비동기식 배포</a> </p> </td> 
    <td colname="col2"> <p>Launch 라이브러리는 <span class="filepath">assets.adobedtm.com</span>의 Adobe Akamai 인스턴스에서 호스팅 중입니다. </p> <p>자체 호스팅은 캐시 제어를 통해 웹 사이트 성능을 더욱 강력하게 제어하고 타사 스크립트 의존성을 줄이며 게시 프로세스를 더욱 강력하게 제어할 수 있기 때문에 Launch를 로드하는 데 권장되는 방법입니다. Launch 라이브러리는 자체 웹 호스팅 또는 CDN을 통해 호스팅 및 관리할 수 있습니다. </p> </td> 
    <td colname="col3"> <p>Akamai CDN을 통한 Launch 호스팅은 대부분의 경우 작동하지만 페이지 성능을 개선하기 위한 첫 번째 단계로 자체 호스팅이 구현되는 것이 좋습니다. </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 비동기적으로 배포해야 함</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 비동기적으로 배포해야 함</b> </p> <p>가중치: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>최적의 성능을 위해 Launch를 비동기적으로 배포해야 합니다. </p> </td> 
    <td colname="col3"> <p>인라인 스크립트에 async 매개 변수를 포함시켜 적절한 비동기 Launch 기능인지 확인합니다. </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target - mboxDefault의 콘텐츠</b> </p> <p>가중치: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b> Target - mboxDefault의 콘텐츠</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/implementing-target.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> at.js를 사용할 때는 mboxDefault에 콘텐츠가 있어야 합니다. </p> </td> 
    <td colname="col3"> <p>콘텐츠를 사용할 수 있는지 확인합니다. </p> </td> 
   </tr> 
