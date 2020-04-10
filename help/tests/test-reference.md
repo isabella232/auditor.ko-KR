@@ -4,7 +4,7 @@ seo-description: 이 참조는 Auditor가 수행하는 테스트에 대한 자�
 seo-title: 테스트 참조
 title: 테스트 참조
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
