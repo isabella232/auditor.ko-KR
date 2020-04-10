@@ -4,7 +4,7 @@ seo-description: 이 참조는 Auditor가 구성을 위해 수행하는 테스�
 seo-title: 구성
 title: 구성
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -101,7 +101,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 최신 버전</b> </p> <p>가중치: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Target - 최신 버전</b> </p> <p>가중치: 2 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> 페이지에서 최신 버전의 Target 코드 라이브러리를 실행하고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. </p> </td> 
    <td colname="col3"> <p>최신 버전의 Target 라이브러리를 설치합니다. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault가 mboxCreate보다 우선함 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault가 mboxCreate보다 우선함 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p><span class="codeph">mboxCreate</span>의 적절한 사용은 다음과 유사합니다. </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p><span class="codeph">mboxCreate()</span>를 호출하기 전에 <span class="codeph">&lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> 태그를 포함해야 합니다. at.js는 사용자를 위해 추가하지 않습니다. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 유효한 DOCTYPE</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Target - 유효한 DOCTYPE</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/help/ko-KR/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> 잘못된 DOCTYPE이 검색되었습니다. 이 시나리오에서는 mbox가 실행되지 않습니다. </p> <p>at.js의 경우 DOCTYPE이 표준 모드여야 합니다. 그렇지 않으면 Target이 작동하지 않습니다. </p> </td> 
    <td colname="col3"> <p>페이지에서 DOCTYPE을 업데이트합니다. </p> </td> 
   </tr> 
