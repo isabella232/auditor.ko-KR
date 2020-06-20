@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: Auditor FAQ
 title: Auditor FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 * [보고서에 어떤 정보가 제공됩니까?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [해당 정보는 얼마나 실용적입니까?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor가 Adobe 기술이 아닌 기술을 감사할 수 있습니까?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [IP 주소를 승인하여 페이지를 스캔할 수 있습니까?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [IP 주소를 허용 목록에 추가하여 페이지를 승인할 수 있습니까?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor는 Observepoint와 동일한 IP 범위를 사용합니까?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Auditor 소개 {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -129,7 +129,7 @@ Auditor를 통해 제공되는 모든 권장 사항은 DTM 또는 Target과 같�
 
 아니요. 그러나 ObservePoint의 전체 솔루션을 사용하면 모든 마케팅 태그와 기술을 감사 및 모니터링할 수 있습니다. Adobe 고객은 무료 체험판 계정을 이용할 수 있습니다. 체험판 계정에 액세스하려면 [ObservePoint의 Auditor 페이지](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)를 참조하십시오.
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## 로그인하여 보호되는 페이지를 승인할 수 있도록 내 IP 주소를 허용 목록에 추가할 수 있습니까? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 이 기능은 현재 ObservePoint 전체 솔루션 없이 지원되지 않습니다.
 
