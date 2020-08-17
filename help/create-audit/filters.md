@@ -4,8 +4,11 @@ seo-description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 �
 seo-title: 포함 및 제외 필터
 title: 포함 및 제외 필터
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ Auditor는 시작 URL을 위한 단일 페이지가 필요합니다. 시작 URL�
 
 포함 필터에는 완전 일치 URL, 부분 URL 또는 정규 표현식이 포함될 수 있습니다. 예를 들어 시작 URL이 [!DNL http://mysite.com] 인 경우 기본적으로 다음 페이지를 검사할 수 있습니다(굵은 서체 참고).
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-복잡한 URL 패턴의 경우 [ObservePoint 의 정규 표현식 테스터](http://regex.observepoint.com/)를 사용합니다.
-
-일반적인 패턴 일치 사용 사례는 [ObservePoint의 일반 정규 표현식](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint)을 참조하십시오.
+복잡한 URL 패턴의 경우 [ObservePoint 의 정규 표현식 테스터](https://regex.observepoint.com/)를 사용합니다.
 
 ## 제외 필터 {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Auditor 내에서 필터 및 URL을 테스트할 수 있습니다.
 
 ## ObservePoint 설명서 {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-이 문서는 ObservePoint와 협력하여 개발되었습니다. 최신 정보는 [ObservePoint 설명서](https://help.observepoint.com/articles/2872121-include-and-exclude-filters)를 참조하십시오.
+이 문서는 ObservePoint와 협력하여 개발되었습니다. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
