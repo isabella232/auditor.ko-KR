@@ -4,8 +4,11 @@ seo-description: 이 참조는 Auditor가 태그 일관성을 위해 수행하�
 seo-title: 태그 일관성
 title: 태그 일관성
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Auditor의 일관성 테스트는 검사한 모든 페이지에서 일치하지 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 일관된 코드 버전 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 일관된 코드 버전 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> 둘 이상의 Analytics 코드 버전을 찾았습니다. </p> </td> 
    <td colname="col3"> <p>Analytics의 모든 인스턴스를 현재 버전으로 바꿉니다. </p> </td> 
   </tr> 
