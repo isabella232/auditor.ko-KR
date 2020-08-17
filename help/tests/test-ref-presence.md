@@ -4,8 +4,11 @@ seo-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 �
 seo-title: 태그 유무
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/macid.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> AMCV_</span> 쿠키를 찾을 수 없습니다. <span class="codeph"> VisitorAPI.js</span> 코드에서 방문자 개체를 인스턴스화해야 합니다. </p> </td> 
    <td colname="col3"> <p> DTM 구현인 경우 AdobeOrg ID가 MCID 도구에 제대로 입력되었는지 확인합니다. </p> </td> 
   </tr> 
