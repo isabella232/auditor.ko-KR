@@ -4,8 +4,11 @@ seo-description: Adobe Experience Platform Auditor는 ObservePoint와 함께 개
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -38,4 +41,4 @@ Auditor는 Adobe와 ObservePoint 간의 협업의 일환으로 개발되었습�
 
 ## 릴리스 정보 {#section-be3e331a123d40f185aa59f23f69355e}
 
-최신 릴리스에 대한 자세한 내용은 [Auditor 릴리스 정보](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)를 참조하십시오.
+최신 릴리스에 대한 자세한 내용은 [Auditor 릴리스 정보](release-notes.md)를 참조하십시오.
