@@ -1,6 +1,9 @@
 ---
-source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: ht
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 # 기여
@@ -30,7 +33,7 @@ translation-type: ht
 
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
 
-재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](http://opensource.adobe.com/cla.html)하십시오. Adobe
+재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명](https://opensource.adobe.com/cla.html)하십시오. Adobe
 
 CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지
 
