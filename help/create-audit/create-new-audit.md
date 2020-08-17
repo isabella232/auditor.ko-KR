@@ -4,8 +4,11 @@ seo-description: Auditor에서 새 감사 만들기
 seo-title: Auditor에서 새 감사 만들기
 title: Auditor에서 새 감사 만들기
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
    이름은 최대 250자까지 사용할 수 있습니다.
 1. (필수) 시작 URL을 지정합니다.
 
-   시작 URL을 지정할 때 프로토콜이 필요합니다. 시작 URL은 감사에서 크롤링을 시작하는 페이지입니다. 시작되면 Auditor는 시작 URL에서 시작되는 링크를 따라 최대 500페이지를 크롤링합니다. 자세한 내용은 [필터 포함 및 제외](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257)를 참조하십시오. 시작 URL은 최대 250자까지 사용할 수 있습니다.
+   시작 URL을 지정할 때 프로토콜이 필요합니다. 시작 URL은 감사에서 크롤링을 시작하는 페이지입니다. 시작되면 Auditor는 시작 URL에서 시작되는 링크를 따라 최대 500페이지를 크롤링합니다. 자세한 내용은 [필터 포함 및 제외](../create-audit/filters.md)를 참조하십시오. 시작 URL은 최대 250자까지 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    포함 필터는 행당 1,000자로 제한됩니다.
 
-   자세한 내용은 [포함 목록](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f)을 참조하십시오.
+   자세한 내용은 [포함 목록](../create-audit/filters.md)을 참조하십시오.
 1. 제외 필터를 지정합니다.
 
    제외 목록은 URL이 감사되지 않도록 합니다. 포함 목록에서와 마찬가지로 완전 일치 URL, 부분 URL 또는 정규 표현식을 사용합니다.
@@ -61,7 +64,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    제외 필터는 행당 1,000자로 제한됩니다.
 
-   자세한 내용은 [제외 목록](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9)을 참조하십시오.
+   자세한 내용은 [제외 목록](../create-audit/filters.md)을 참조하십시오.
 1. (선택 사항) 원하는 경우 포함 및 제외 필터를 테스트하고 URL을 테스트할 수 있습니다.
 
    필터 및 URL을 입력한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 테스트를 실행합니다.
