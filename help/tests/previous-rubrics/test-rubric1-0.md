@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: 테스트 지침 0.0.8
 title: 테스트 지침 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -117,7 +120,7 @@ Auditor는 다른 규칙에 대해 태그를 평가하고 우수 사례를 권�
     <td colname="col3"> <p>페이지에 Analytics 태그가 하나만 있어야 합니다. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 최신 버전</b> </p> <p>가중치: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 최신 버전</b> </p> <p>가중치: 3 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
     <td colname="col2"> <p> 페이지에서 최신 버전의 Analytics 코드 라이브러리를 실행하고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. 웹 페이지에 Analytics 코드가 없을 때 0을 반환합니다. </p> </td>       
     <td colname="col3"> <p>최신 버전의 Analytics 라이브러리를 설치합니다. </p> </td> 
    </tr> 
@@ -172,7 +175,7 @@ Auditor는 URL에서 태그가 일관되는지 여부를 평가합니다.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 일관된 코드 버전 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 일관된 코드 버전 </b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
     <td colname="col2"> <p> 둘 이상의 Analytics 코드 버전을 찾았습니다. </p> </td> 
     <td colname="col3"> <p>Analytics의 모든 인스턴스를 현재 버전으로 바꿉니다. </p> </td> 
    </tr> 
@@ -236,7 +239,7 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
     <td colname="col3"> <p>모든 페이지에 DTM <span class="codeph">pageBottom</span> 호출을 설치합니다. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/macid.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
     <td colname="col2"> <p> <span class="codeph"> AMCV_</span> 쿠키를 찾을 수 없습니다. <span class="codeph"> VisitorAPI.js</span> 코드에서 방문자 개체를 인스턴스화해야 합니다. </p> </td> 
     <td colname="col3"> <p> DTM 구현인 경우 AdobeOrg ID가 MCID 도구에 제대로 입력되었는지 확인합니다. </p> </td> 
    </tr> 
