@@ -4,9 +4,9 @@ seo-description: Auditor에서 새 감사 만들기
 seo-title: Auditor에서 새 감사 만들기
 title: Auditor에서 새 감사 만들기
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
