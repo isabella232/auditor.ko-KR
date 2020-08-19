@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: 테스트 지침 1.0.1
 title: 테스트 지침 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2737'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - 코드 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID Service - 코드 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID Service 코드를 찾을 수 없습니다. Experience Cloud ID(MCID)는 Experience Cloud 솔루션의 가치를 극대화하기 위해 매우 권장되며 Experience Cloud 솔루션 전반에서 매우 중요합니다. </p> </td> 
    <td colname="col3"> <p> 최신 버전의 MCID를 설치하십시오. </p> </td> 
   </tr> 
