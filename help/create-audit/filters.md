@@ -4,11 +4,11 @@ seo-description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 �
 seo-title: 포함 및 제외 필터
 title: 포함 및 제외 필터
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,4 +108,4 @@ Auditor 내에서 필터 및 URL을 테스트할 수 있습니다.
 
 ## ObservePoint 설명서 {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-이 문서는 ObservePoint와 협력하여 개발되었습니다. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
+이 문서는 ObservePoint와 협력하여 개발되었습니다. 최신 정보는 [ObservePoint 설명서](https://help.observepoint.com/)를 참조하십시오.
