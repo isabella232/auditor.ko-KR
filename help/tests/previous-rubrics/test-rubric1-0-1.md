@@ -1,14 +1,14 @@
 ---
-description: adobe 감사 테스트에 대한 정보
-seo-description: adobe 감사 테스트에 대한 정보
+description: Adobe Auditor 테스트에 대한 정보
+seo-description: Adobe Auditor 테스트에 대한 정보
 seo-title: 테스트 지침 1.0.1
 title: 테스트 지침 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
