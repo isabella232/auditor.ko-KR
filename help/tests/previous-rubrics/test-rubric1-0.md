@@ -4,10 +4,10 @@ seo-description: Adobe Auditor 테스트에 대한 정보
 seo-title: 테스트 지침 0.0.8
 title: 테스트 지침 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 100%
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 추가 정보</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management에는 <span class="codeph">_satellite.pageBottom()</span> 함수가 필요합니다. </p> <p>태그가 <i>&lt;body&gt;</i>의 마지막 <span class="codeph">태그가 되는 것이 좋습니다</span>. <span class="codeph">&lt;body&gt; </span>태그 내에 있는 경우에도 작동할 수도 있지만, 우수 사례가 아니므로 제대로 기능하지 않거나 예기치 않거나 원치 않는 결과로 작동할 수 있습니다. </p> </td> 
     <td colname="col3"> <p>닫기 <span class="codeph">&lt;/body&gt;</span> 태그 바로 앞에 인라인 스크립트를 추가하여 DTM 기능이 적절히 작동하도록 합니다. </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Target - &lt;head&gt;에 로드된 라이브러리</b> </p> <p>가중치: 4 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/implementing-target.html" format="html" scope="external"> 추가 정보</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Target 라이브러리는 <span class="codeph">&lt;head&gt;</span> 태그에 로드되어야 합니다. </p> </td> 
     <td colname="col3"> <p> Target 라이브러리가 <span class="codeph">&lt;head&gt;</span> 태그에 로드되었는지 확인합니다. </p> </td> 
    </tr> 
