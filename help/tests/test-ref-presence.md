@@ -4,10 +4,10 @@ seo-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 �
 seo-title: 태그 유무
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '943'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
@@ -69,65 +69,65 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - 코드 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/overview.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Experience Cloud ID Service - 코드 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/overview.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID Service 코드를 찾을 수 없습니다. Experience Cloud ID(MCID)는 Experience Cloud 솔루션의 가치를 극대화하기 위해 매우 권장되며 Experience Cloud 솔루션 전반에서 매우 중요합니다. </p> </td> 
    <td colname="col3"> <p> 최신 버전의 MCID를 설치하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/macid.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Experience Cloud ID Service - 쿠키 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/tools/macid.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> AMCV_</span> 쿠키를 찾을 수 없습니다. <span class="codeph"> VisitorAPI.js</span> 코드에서 방문자 개체를 인스턴스화해야 합니다. </p> </td> 
    <td colname="col3"> <p> DTM 구현인 경우 AdobeOrg ID가 MCID 도구에 제대로 입력되었는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - MID 값 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Experience Cloud ID Service - MID 값 유무</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> <span class="codeph">AMCV_</span> 쿠키에 MID 값이 없습니다. </p> </td> 
    <td colname="col3"> <p>다시 테스트하여 MCID API 지연을 확인합니다. 상태가 지속되면 Adobe 고객 지원 센터에 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b> Launch - 라이브러리가 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b> Launch - 라이브러리가 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> 전역 _satellite 개체를 DOM에서 찾을 수 없습니다. Launch가 설치되지 않거나 실행되지 않습니다. </p> </td> 
    <td colname="col3"> <p>Launch 라이브러리가 페이지에 구현되어 있고 후속 스크립트 활동에서 차단되지 않았는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - 여러 개의 포함 스크립트가 없음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Launch - 여러 개의 포함 스크립트가 없음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>페이지에 여러 개의 포함 스크립트가 로드되어서는 안 됩니다. 프로덕션 사이트는 하나의 Launch 라이브러리만 로드해야 합니다. </p> </td> 
    <td colname="col3"> <p>프로덕션 라이브러리만 페이지에 로드되고 있는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom 콜백이 &lt;body&gt;에 있음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Launch - pageBottom 콜백이 &lt;body&gt;에 있음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> Launch에 필요한 <span class="codeph">_satellite.pageBottom()</span> 콜백을 페이지의 <span class="codeph">&lt;body&gt;</span> 내에서 찾을 수 없습니다. </p> <p>페이지에서 <span class="codeph">pageBottom </span>호출을 전혀 찾을 수 없거나 <span class="codeph">&lt;head&gt;</span> 태그(또는 기타 예기치 않은 위치)에 있는 경우 이 테스트가 실패합니다. <span class="codeph">pageBottom</span>이 <span class="codeph">&lt;body&gt;</span> 태그 내 어딘가에 있는 경우에만 전달됩니다. 페이지에 전혀 없으면 작동하지 않으며 다른 두 개의 <span class="codeph">pageBottom</span> 테스트 또한 실패합니다. </p> </td> 
    <td colname="col3"> <p>닫기 <span class="codeph">&lt;/body&gt;</span> 태그 바로 앞에 인라인 스크립트를 추가하여 실행 기능이 적절히 작동하도록 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom 콜백은 비동기적으로 배포할 때 존재하지 않아야 합니다.</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b>Launch - pageBottom 콜백은 비동기적으로 배포할 때 존재하지 않아야 합니다.</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>페이지에서 <span class="codeph">_satellite.pageBottom()</span> 콜백이 발견되었으며, 이는 Launch가 비동기적으로 배포된 경우에는 해당되지 않습니다. </p> </td> 
    <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> 스크립트를 제거하여 적절한 Launch 기능을 활성화합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b> Target - 코드 여부</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/implementing-target.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
+    --> <p><b> Target - 코드 여부</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/implementing-target.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p>DOM에서 Target을 정의해야 합니다. </p> </td> 
    <td colname="col3"> <p>최신 버전의 Target (at.js)을 설치합니다. </p> </td> 
   </tr> 
