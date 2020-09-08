@@ -4,9 +4,9 @@ seo-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 �
 seo-title: 태그 유무
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
 ht-degree: 100%
 
