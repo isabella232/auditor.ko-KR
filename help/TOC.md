@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
-product: auditor
-sub-product: auditor
+product: adobe experience platform auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 도움말
 user-guide-description: 개선 방법에 대한 정보와 함께 Adobe Experience Cloud 구현에 등급을 매기는 보고서를 생성합니다.
-breadcrumb-title: Auditor 안내서
+breadcrumb-title: 플랫폼 감사 안내서
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 82%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 100%
    + 이전 테스트 지침{#previous-rubrics}
       + [테스트 지침 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [테스트 지침 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [Auditor FAQ](auditor-faq.md)
-+ [Auditor 릴리스 정보](release-notes.md)
++ [플랫폼 감사자 FAQ](auditor-faq.md)
++ [플랫폼 감사자 릴리스 노트](release-notes.md)
