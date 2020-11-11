@@ -1,14 +1,14 @@
 ---
-description: Auditor 시작하기
-seo-description: Auditor 시작하기
+description: Adobe Experience Platform Auditor 시작하기
+seo-description: Adobe Experience Platform Auditor 시작하기
 seo-title: 시작하기
 title: 시작하기
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-Auditor를 처음 사용하는 경우 Auditor 계약서를 작성 및 동의해야 합니다. Auditor는 Adobe와 ObservePoint 간의 협업의 일환으로 개발되었습니다. Auditor 사용자는 추가 비용 없이 제한된 ObservePoint 기능을 사용할 수 있습니다. Auditor를 사용하려면 ObservePoint에서 공지에 동의해야 합니다.
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] 그것은 [!DNL Adobe] 와 [!DNL ObservePoint]사이의 협력적 노력으로 개발되었다. Platform Auditor 사용자는 추가 비용 없이 제한된 ObservePoint 기능을 사용할 수 있습니다. Platform Auditor를 사용하려면 ObservePoint에서 통신하기 위해 옵트인해야 합니다.
 
 ## 첫 번째 검사 실행 {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ Auditor를 처음 사용하는 경우 Auditor 계약서를 작성 및 동의해�
 
    ![](assets/activate.png)
 
-1. Auditor를 선택하고 사용 약관에 동의합니다.
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   Auditor 페이지에서는 새 검사 실행 옵션과 함께 이전 검사 대시보드를 제공합니다.
+   플랫폼 감사자 페이지는 새 스캔 실행 옵션과 함께 이전 스캔 대시보드를 제공합니다.
 
    ![](assets/home.png)
 
