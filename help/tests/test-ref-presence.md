@@ -1,23 +1,23 @@
 ---
-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Auditor가 태그 유무를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+description: 이 참조에서는 Adobe Experience Platform 감사자가 태그 존재를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+seo-description: 이 참조에서는 Adobe Experience Platform 감사자가 태그 존재를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 seo-title: 태그 유무
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '935'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 79%
 
 ---
 
 
 # 태그 유무
 
-이 참조는 Auditor가 태그 유무를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조에서는 Adobe Experience Platform 감사자가 태그 존재를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있는지 여부를 평가합니다.
+Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른 위치에 있는지 여부를 평가합니다.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - 코드 유무</b> </p> <p>가중치: 5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud 태그는 DOM에서 사용할 수 없습니다. </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud Launch Extension을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
+   <td colname="col3"> <p>Adobe Experience Platform Launch용 Advertising Cloud 확장을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - 구현된 세그먼트 픽셀</b> </p> <p>가중치: 5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud 세그먼트 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드합니다. 더 이상 사용되지 않는 AMO 세그먼트 태그를 사용하면 데이터가 손실될 수 있습니다. </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud Launch Extension을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
+   <td colname="col3"> <p>플랫폼 론치용 Advertising Cloud 확장을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics - DOM에서 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
@@ -96,15 +96,15 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
     <!--
       1.0.5 
     --> <p><b> Launch - 라이브러리가 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p> 전역 _satellite 개체를 DOM에서 찾을 수 없습니다. Launch가 설치되지 않거나 실행되지 않습니다. </p> </td> 
-   <td colname="col3"> <p>Launch 라이브러리가 페이지에 구현되어 있고 후속 스크립트 활동에서 차단되지 않았는지 확인합니다. </p> </td> 
+   <td colname="col2"> <p> 전역 _satellite 개체를 DOM에서 찾을 수 없습니다. 플랫폼 론치가 설치되지 않았거나 실행되지 않습니다. </p> </td> 
+   <td colname="col3"> <p>플랫폼 론치 라이브러리가 페이지에 구현되어 후속 스크립트 작업으로 인해 차단되지 않았는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - 여러 개의 포함 스크립트가 없음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>페이지에 여러 개의 포함 스크립트가 로드되어서는 안 됩니다. 프로덕션 사이트는 하나의 Launch 라이브러리만 로드해야 합니다. </p> </td> 
+   <td colname="col2"> <p>페이지에 여러 개의 포함 스크립트가 로드되어서는 안 됩니다. 프로덕션 사이트에서는 하나의 플랫폼 실행 라이브러리만 로드해야 합니다. </p> </td> 
    <td colname="col3"> <p>프로덕션 라이브러리만 페이지에 로드되고 있는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom 콜백이 &lt;body&gt;에 있음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p> Launch에 필요한 <span class="codeph">_satellite.pageBottom()</span> 콜백을 페이지의 <span class="codeph">&lt;body&gt;</span> 내에서 찾을 수 없습니다. </p> <p>페이지에서 <span class="codeph">pageBottom </span>호출을 전혀 찾을 수 없거나 <span class="codeph">&lt;head&gt;</span> 태그(또는 기타 예기치 않은 위치)에 있는 경우 이 테스트가 실패합니다. <span class="codeph">pageBottom</span>이 <span class="codeph">&lt;body&gt;</span> 태그 내 어딘가에 있는 경우에만 전달됩니다. 페이지에 전혀 없으면 작동하지 않으며 다른 두 개의 <span class="codeph">pageBottom</span> 테스트 또한 실패합니다. </p> </td> 
-   <td colname="col3"> <p>닫기 <span class="codeph">&lt;/body&gt;</span> 태그 바로 앞에 인라인 스크립트를 추가하여 실행 기능이 적절히 작동하도록 합니다. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>페이지에서 <span class="codeph">pageBottom </span>호출을 전혀 찾을 수 없거나 <span class="codeph">&lt;head&gt;</span> 태그(또는 기타 예기치 않은 위치)에 있는 경우 이 테스트가 실패합니다. <span class="codeph">pageBottom</span>이 <span class="codeph">&lt;body&gt;</span> 태그 내 어딘가에 있는 경우에만 전달됩니다. 페이지에 전혀 없으면 작동하지 않으며 다른 두 개의 <span class="codeph">pageBottom</span> 테스트 또한 실패합니다. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom 콜백은 비동기적으로 배포할 때 존재하지 않아야 합니다.</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>페이지에서 <span class="codeph">_satellite.pageBottom()</span> 콜백이 발견되었으며, 이는 Launch가 비동기적으로 배포된 경우에는 해당되지 않습니다. </p> </td> 
-   <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> 스크립트를 제거하여 적절한 Launch 기능을 활성화합니다. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
