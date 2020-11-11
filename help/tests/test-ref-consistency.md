@@ -1,23 +1,23 @@
 ---
-description: 이 참조는 Auditor가 태그 일관성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Auditor가 태그 일관성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+description: 이 참조는 태그 일관성을 위해 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+seo-description: 이 참조는 태그 일관성을 위해 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 seo-title: 태그 일관성
 title: 태그 일관성
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
 
 # 태그 일관성
 
-이 참조는 Auditor가 태그 일관성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 태그 일관성을 위해 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Auditor의 일관성 테스트는 검사한 모든 페이지에서 일치하지 않는 것을 찾습니다. 이는 정확한 데이터 수집을 위해 사이트의 모든 페이지에서 동일해야 하는 값 또는 구성입니다.
+Platform Auditor의 일관성 테스트는 스캔한 모든 페이지에서 일치하지 않는 것으로 보입니다. 이는 정확한 데이터 수집을 위해 사이트의 모든 페이지에서 동일해야 하는 값 또는 구성입니다.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
