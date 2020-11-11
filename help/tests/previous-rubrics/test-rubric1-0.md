@@ -1,14 +1,14 @@
 ---
-description: Adobe Auditor 테스트에 대한 정보
-seo-description: Adobe Auditor 테스트에 대한 정보
+description: adobe experience platform 감사 테스트에 대한 정보
+seo-description: adobe experience platform 감사 테스트에 대한 정보
 seo-title: 테스트 지침 0.0.8
 title: 테스트 지침 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 경고 {#alerts}
 
-이 참조는 Auditor가 테스트에 대해 표시하는 경고에 대한 자세한 정보를 제공합니다.
+이 참조는 테스트에 대해 Adobe Experience Platform 감사자가 표시하는 경고에 대한 자세한 정보를 제공합니다.
 
 알림은 인지해야 하는 문제를 보여주지만 점수에 영향을 주지 않습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 구현된 변환 태그 수정</b> </p> <p>가중치: 0 </p> </td> 
     <td colname="col2"> <p>올바른 변환 태그가 사용되는지 확인합니다. </p> <p> <p>경고: 더 이상 사용되지 않는 TubeMogul 변환 태그를 사용하면 데이터가 손실될 수 있습니다. </p> </p> </td> 
-    <td colname="col3"> <p>변환 픽셀을 새로운 Advertising Cloud 이미지 전용 변환 태그로 업그레이드합니다. </p> <p>Advertising Cloud Launch Extension을 사용하면 이러한 기능을 가장 쉽게 수행할 수 있습니다. </p> </td> 
+    <td colname="col3"> <p>변환 픽셀을 새로운 Advertising Cloud 이미지 전용 변환 태그로 업그레이드합니다. </p> <p>Adobe Experience Platform Launch의 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 이미지 전용 태그</b> </p> <p>가중치: 0 </p> </td> 
@@ -49,12 +49,12 @@ ht-degree: 100%
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드하여 전체 Advertising Cloud 기능을 활용할 수 있습니다. </p> <p>Advertising Cloud Launch Extension을 사용하면 이러한 기능을 가장 쉽게 수행할 수 있습니다. </p> </td> 
+    <td colname="col3"> <p>Advertising Cloud 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드하여 전체 Advertising Cloud 기능을 활용할 수 있습니다. </p> <p>Platform Launch용 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 세그먼트 픽셀 DSP 동기화 사용</b> </p> <p>가중치: 0 </p> </td> 
     <td colname="col2"> <p>TubeMogul 세그먼트 픽셀에 DSP 동기화 설정이 포함되어 있는지 확인하고 픽셀에 설정을 추가하는 것이 좋습니다. </p> <p>DSP 동기화 설정은 쿼리 문자열 매개 변수를 사용하여 결정되므로 </p> <p>태그를 실행하는 경우<span class="codeph">("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 또는 <span class="codeph">"http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 또는 <span class="codeph">"http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>그리고 태그에 URL 매개 변수 <span class="codeph">"sid="가 포함)</span> </p> <p>URL 매개 변수 <span class="codeph">"cs=0"</span> 또는<span class="codeph"> "cs=1"</span>이 <span class="codeph">있는지 확인하고, 없다면 대상 일치율이 향상될 수 있도록</span> "cs=1"을 해당 픽셀에 추가하는 것이 좋습니다. </p> </td> 
-    <td colname="col3"> <p> DSP 동기화가 발생할 수 있도록 URL 매개 변수 <span class="codeph">"cs=1"</span>을 Advertising Cloud 픽셀에 추가하여 대상 일치율을 높입니다. </p> <p>Advertising Cloud Launch Extension을 사용하면 이러한 기능을 가장 쉽게 수행할 수 있습니다. </p> </td> 
+    <td colname="col3"> <p> DSP 동기화가 발생할 수 있도록 URL 매개 변수 <span class="codeph">"cs=1"</span>을 Advertising Cloud 픽셀에 추가하여 대상 일치율을 높입니다. </p> <p>Platform Launch용 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom 콜백 배치</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 추가 정보</a> </p> 
@@ -81,9 +81,9 @@ ht-degree: 100%
 
 ## 구성 {#configuration}
 
-이 참조는 Auditor가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 플랫폼 감사자가 구성에 대해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Auditor는 다른 규칙에 대해 태그를 평가하고 우수 사례를 권장합니다.
+Platform Auditor는 다른 규칙에 대해 태그를 평가하고 권장 우수 사례를 평가합니다.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Auditor는 다른 규칙에 대해 태그를 평가하고 우수 사례를 권�
 
 ## 태그 일관성 {#tag-consistency}
 
-이 참조는 Auditor가 태그 일관성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 태그 일관성을 위해 플랫폼 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Auditor는 URL에서 태그가 일관되는지 여부를 평가합니다.
+Platform Auditor는 URL에서 태그가 일관되는지 여부를 평가합니다.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Auditor는 URL에서 태그가 일관되는지 여부를 평가합니다.
 
 ## 태그 유무 {#tag-presence}
 
-이 참조는 Auditor가 태그 유무를 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 플랫폼 감사자가 태그 출석을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있는지 여부 등을 평가합니다.
+Platform Auditor는 태그가 존재하는지, 페이지 코드의 올바른 위치에 있는지 여부 등을 평가합니다.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있�
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 코드 유무</b> </p> <p>가중치: 5 </p> </td> 
     <td colname="col2"> <p> Advertising Cloud 태그는 DOM에서 사용할 수 없습니다. </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud Launch Extension을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
+    <td colname="col3"> <p>플랫폼 론치의 Advertising Cloud 확장을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 구현된 세그먼트 픽셀</b> </p> <p>가중치: 5 </p> </td> 
     <td colname="col2"> <p> Advertising Cloud 세그먼트 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드합니다. 더 이상 사용되지 않는 AMO 세그먼트 태그를 사용하면 데이터가 손실될 수 있습니다. </p> </td> 
-    <td colname="col3"> <p>Advertising Cloud Launch Extension을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
+    <td colname="col3"> <p>플랫폼 론치용 Advertising Cloud 확장을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - DOM에서 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/analytics/implementation/home.html" format="https" scope="external"> 추가 정보</a> </p> </td> 
