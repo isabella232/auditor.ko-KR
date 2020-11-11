@@ -1,23 +1,23 @@
 ---
-description: 이 참조는 Auditor가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Auditor가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+description: 이 참조는 Adobe Experience Platform 감사자가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+seo-description: 이 참조는 Adobe Experience Platform 감사자가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 seo-title: 구성
 title: 구성
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 89%
 
 ---
 
 
 # 구성
 
-이 참조는 Auditor가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 Adobe Experience Platform 감사자가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-구성 테스트는 구현에서 특정 설정, 값 또는 잠재적인 충돌을 검사합니다. Auditor는 다른 규칙에 대해 태그를 평가하고 우수 사례를 권장합니다.
+구성 테스트는 구현에서 특정 설정, 값 또는 잠재적인 충돌을 검사합니다. Platform Auditor는 다른 규칙에 대해 태그를 평가하고 권장 우수 사례를 평가합니다.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ ht-degree: 100%
     <!--
       1.0.1 
     --> <p><b>Launch - 최신 버전</b> </p> <p>가중치: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>이러한 페이지에서 최신 버전의 Launch 코드 라이브러리(Turbine)를 실행하고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. </p> </td> 
-   <td colname="col3"> <p> Launch 라이브러리를 다시 구축 및 게시하여 Launch 라이브러리를 업데이트합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 페이지에는 최신 버전의 플랫폼 실행 코드 라이브러리(터빈)가 실행되고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. </p> </td> 
+   <td colname="col3"> <p> Platform Launch 라이브러리를 다시 빌드하고 게시하여 플랫폼 론치 라이브러리를 업데이트합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
