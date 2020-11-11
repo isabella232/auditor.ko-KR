@@ -1,16 +1,19 @@
 ---
-description: Auditor 릴리스 정보
+description: Adobe Experience Platform Auditor 릴리스 정보
 seo-description: Adobe Experience Platform Auditor 릴리스 정보
-seo-title: Auditor 릴리스 정보
-title: Auditor 릴리스 정보
+seo-title: Adobe Experience Platform 감사기 릴리스 노트
+title: Adobe Experience Platform 감사기 릴리스 노트
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 65%
 
 ---
 
 
-# Auditor 릴리스 정보{#auditor-release-notes}
+# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
 
 ## 2019년 2월 5일 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -26,7 +29,7 @@ source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 **새로운 기능**
 
-이제 Auditor 페이지 및 카드 보기에서, 또는 새 감사 만들기를 시도할 때 현재 실행 중인 감사를 취소할 수 있습니다.
+이제 플랫폼 감사자 페이지, 카드 보기에서 또는 새 감사를 만들려고 할 때 현재 실행 중인 감사를 취소할 수 있습니다.
 
 ## 2018년 6월 4일 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -56,18 +59,18 @@ source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 >[!NOTE]
 >
->Auditor에 대한 액세스 권한은 단계적으로 부여됩니다. 모든 고객은 2018년 4월 말까지 액세스할 수 있습니다.
+>Platform Auditor에 대한 액세스 권한이 지속적으로 부여됩니다. 모든 고객은 2018년 4월 말까지 액세스할 수 있습니다.
 
-Adobe Experience Platform Auditor는 Adobe Experience Cloud 구현에서 권장하는 개선 사항의 등급을 매깁니다. Auditor는 Adobe 제품을 통해 개별적으로나 집합적으로 더 많은 가치를 얻을 수 있도록 지원합니다.
+Platform Auditor는 Adobe Experience Cloud 구현에서 권장하는 개선 사항의 등급을 매깁니다. Platform Auditor를 사용하면 Adobe 제품을 개별적으로 또는 통칭하여 더 많은 가치를 창출할 수 있습니다.
 
-Auditor를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
+Platform Auditor를 사용하면 다음 작업을 수행할 수 있습니다.
 
 * **검사** Adobe 기술을 위해 한 번에 100개의 웹 페이지를 검사합니다. 고급 필터를 사용하여 필요에 따라 페이지를 포함하거나 제외합니다. 한 번에 1회의 감사를 실행할 수 있으며 감사 횟수는 제한되지 않습니다.
 
 * **이해** 태그 유무, 구성 및 일관성을 기반으로 Adobe 구현 점수를 매기는 보고서를 받습니다.
 
-* **개선** 구현을 업그레이드하는 방법에 대한 추천을 받아 Adobe 투자에 대한 가치를 최대한 얻을 수 있습니다. Auditor는 구현 개선 방법을 정확하게 파악하고 문제가 발견된 웹 페이지를 표시한 다음, 이를 수정하는 방법에 대한 지침을 제공합니다.
+* **개선** 구현을 업그레이드하는 방법에 대한 추천을 받아 Adobe 투자에 대한 가치를 최대한 얻을 수 있습니다. Platform Auditor는 구현 개선 방법을 정확하게 설명하고, 문제가 발견된 웹 페이지를 표시한 다음, 이를 수정하는 방법에 대한 지침을 제공합니다.
 
-Auditor는 자체 구현 문제를 해결하고 수정할 수 있는 권한을 부여하여 사용자가 구현 태그와 데이터에 대한 제어력을 높일 수 있습니다. 이를 통해 구현 태그에 대한 질문으로 고객 지원 센터에 문의하는 경우가 줄어듭니다.
+Platform Auditor를 사용하면 구현 문제를 해결하고 직접 해결할 수 있으므로 구현 태그와 데이터를 보다 효과적으로 제어할 수 있습니다. 이를 통해 구현 태그에 대한 질문으로 고객 지원 센터에 문의하는 경우가 줄어듭니다.
 
-Auditor는 Adobe와 ObservePoint 간의 협업의 일환으로 개발되었습니다. Auditor 사용자는 추가 비용 없이 제한된 ObservePoint 기능을 사용할 수 있습니다. Auditor를 사용하려면 ObservePoint에서 공지에 동의해야 합니다.
+Platform Auditor는 Adobe과 ObservePoint 간의 공동 노력으로 개발되었습니다. Platform Auditor 사용자는 추가 비용 없이 제한된 ObservePoint 기능을 사용할 수 있습니다. Platform Auditor를 사용하려면 ObservePoint에서 통신하기 위해 옵트인해야 합니다.
