@@ -4,11 +4,11 @@ seo-description: 보고서는 각 URL의 전달 또는 실패 여부를 보여�
 seo-title: 보고서 다운로드
 title: 보고서 다운로드
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 사용자 인터페이스의 스코어카드 페이지에서 보고서를 볼 수 있습니다. 또한 다음과 같은 보고서를 다운로드할 수 있습니다.
 
-1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
+1. Adobe Experience Platform Auditor 목록 또는 스코어카드에서 **[!UICONTROL 보고서 다운로드]**&#x200B;를 클릭합니다.
 
    보고서를 스프레드시트 또는 PDF 파일로 다운로드할 수 있습니다.
 1. 파일을 열지 또는 저장할지 지정합니다.
