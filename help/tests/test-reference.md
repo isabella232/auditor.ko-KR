@@ -1,21 +1,21 @@
 ---
-description: 이 참조는 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+description: 이 참조는 Adobe Experience Platform Auditor에서 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+seo-description: 이 참조는 Adobe Experience Platform Auditor에서 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 seo-title: 테스트 참조
 title: 테스트 참조
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # 테스트 참조{#test-reference}
 
-이 참조는 Adobe Experience Platform 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 Adobe Experience Platform Auditor에서 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
 **현재 테스트 규칙 버전:** 1.0.5
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 레벨 1-3 결과를 수정하는 것이 **좋습니다**.
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Platform Auditor는 어떤 Adobe 기술을 평가합니까? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
@@ -47,5 +47,5 @@ ht-degree: 84%
 
 * Advertising Cloud Creative
 * Audience Manager
-* 캠페인
+* Campaign
 * Adobe Experience Platform Launch
