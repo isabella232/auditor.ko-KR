@@ -4,11 +4,11 @@ seo-description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 �
 seo-title: 포함 및 제외 필터
 title: 포함 및 제외 필터
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 포함 필터, 제외 필터 또는 두 가지 필터 조합을 적용하여 감사에서 크롤링할 수 있는 링크에 대한 지침을 제공할 수 있습니다.
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+[!UICONTROL 포함 필터] 필드의 항목은 해당 항목과 일치하는 페이지만 검사하도록 제한합니다. [!UICONTROL 제외 필터] 필드의 항목은 해당 항목과 일치하는 페이지를 검사하지 못하도록 합니다.
 
 포함 및 제외 필터는 전체 URL, 부분 URL 또는 유효한 페이지와 일치하는 정규 표현식일 수 있습니다.
 
@@ -53,7 +53,7 @@ Any item in the [!UICONTROL Include Filters] field restricts the scan to only th
 
 ## 시작 URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Adobe Experience Platform 감사자는 시작 URL에 대해 한 페이지가 필요합니다. 시작 URL은 항상 다른 URL 보다 먼저 방문합니다. 시작 페이지에서 검색된 모든 링크는 포함 및 제외 필터에 따라 방문할 수 있습니다. 제외 항목이 시작 URL과 일치하는 경우 무시됩니다.
+Adobe Experience Platform Auditor는 시작 URL을 위한 단일 페이지가 필요합니다. 시작 URL은 항상 다른 URL 보다 먼저 방문합니다. 시작 페이지에서 검색된 모든 링크는 포함 및 제외 필터에 따라 방문할 수 있습니다. 제외 항목이 시작 URL과 일치하는 경우 무시됩니다.
 
 ## 포함 필터 {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Adobe Experience Platform 감사자는 시작 URL에 대해 한 페이지가 필
 
 이렇게 하면 시작 URL 페이지에 있는 모든 링크를 방문할 수 있습니다. 시작 URL의 하위 도메인에 있는 모든 페이지와 일치합니다.
 
-기본 포함 필터를 사용하면 감사 시 크롤링할 수 있는 광범위한 범위가 제공됩니다. 특정 섹션이나 페이지로 바로 이동하려면 이 상자에 필터를 추가하여 특정 감사 지침을 제공합니다. 이 경우 기본값을 감사에서 검사할 디렉토리로 바꿉니다. 또한 포함 필터를 사용하여 한 도메인에서 감사를 시작하고 다른 도메인에서 종료해야 하는 도메인 간 감사를 수행할 수도 있습니다. 이를 위해 트래버스하려는 도메인을 입력합니다. 어떤 경우든 포함 필터 URL을 찾으려면 감사되는 페이지에서 검색되어야 합니다.
+기본 포함 필터를 사용하면 감사 시 크롤링할 수 있는 광범위한 범위가 제공됩니다. 특정 섹션이나 페이지로 바로 이동하려면 이 상자에 필터를 추가하여 특정 감사 지침을 제공합니다. 이 경우 기본값을 감사에서 검사할 디렉토리로 바꿉니다. 또한 포함 필터를 사용하여 한 도메인에서 감사를 시작하고 다른 도메인에서 끝나야 하는 도메인 간 감사를 수행할 수도 있습니다. 이를 위해 트래버스하려는 도메인을 입력합니다. 어떤 경우든 포함 필터 URL을 찾으려면 감사된 페이지에서 해당 URL이 검색되어야 합니다.
 
-포함 필터에는 정확한 URL, 부분 URL 또는 정규식이 포함될 수 있습니다. 예를 들어 시작 URL이 [!DNL http://mysite.com] 인 경우 기본적으로 다음 페이지를 검사할 수 있습니다(굵은 서체 참고).
+포함 필터에는 완전 일치 URL, 부분 URL 또는 정규 표현식이 포함될 수 있습니다. 예를 들어 시작 URL이 [!DNL http://mysite.com] 인 경우 기본적으로 다음 페이지를 검사할 수 있습니다(굵은 서체 참고).
 
 ```html
 http://mysite.com
