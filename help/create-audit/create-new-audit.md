@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Platform Auditor에서 새 감사 만들기
-seo-description: Adobe Experience Platform Auditor에서 새 감사 만들기
-seo-title: Adobe Experience Platform Auditor에서 새 감사 만들기
-title: Adobe Experience Platform Auditor에서 새 감사 만들기
+description: Adobe Experience Platform Auditor에서 감사 새로 만들기
+seo-description: Adobe Experience Platform Auditor에서 감사 새로 만들기
+seo-title: Adobe Experience Platform Auditor에서 감사 새로 만들기
+title: Adobe Experience Platform Auditor에서 감사 새로 만들기
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 73%
    이름은 최대 250자까지 사용할 수 있습니다.
 1. (필수) 시작 URL을 지정합니다.
 
-   시작 URL을 지정할 때 프로토콜이 필요합니다. 시작 URL은 감사에서 크롤링을 시작하는 페이지입니다. 한 번 시작되면 Adobe Experience Platform 감사자가 최대 500페이지를 크롤하며 시작 URL에서 시작되는 링크를 따릅니다. 자세한 내용은 [필터 포함 및 제외](../create-audit/filters.md)를 참조하십시오. 시작 URL은 최대 250자까지 사용할 수 있습니다.
+   시작 URL을 지정할 때 프로토콜이 필요합니다. 시작 URL은 감사에서 크롤링을 시작하는 페이지입니다. Adobe Experience Platform Auditor가 시작되면 시작 URL에서 시작되는 링크를 따라 최대 500페이지를 크롤링합니다. 자세한 내용은 [필터 포함 및 제외](../create-audit/filters.md)를 참조하십시오. 시작 URL은 최대 250자까지 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -44,22 +44,22 @@ ht-degree: 73%
 
    각 이메일은 도메인 끝부분(예: .com)을 포함하여 250자 이내로 제한됩니다.
 
-1. Specify [!UICONTROL Include Filters].
+1. [!UICONTROL 포함 필터]를 지정합니다.
 
-   이 필드에는 완전 일치 URL, 부분 URL 또는 정규 표현식이 포함될 수 있습니다. 모든 URL을 일치시키려는 기준에 대해 이 필드를 사용합니다. Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
+   이 필드에는 완전 일치 URL, 부분 URL 또는 정규 표현식이 포함될 수 있습니다. 모든 URL을 일치시키려는 기준에 대해 이 필드를 사용합니다. [!UICONTROL 포함 필터] 기준과 일치하지 않는 크롤링된 모든 URL은 감사 결과에 포함되지 않습니다.
 
    감사에서 검사할 디렉토리를 입력할 수 있습니다. 도메인 간 또는 자체 참조 감사를 수행할 수도 있으며, 한 도메인에서 감사를 시작하고 다른 도메인에서 감사를 끝내야 합니다. 이렇게 하려면 트래버스할 도메인을 입력합니다.복잡한 URL 패턴의 경우 정규 표현식을 사용합니다.
 
    >[!NOTE]
    >
-   >필터에 페이지를 포함하지만 시작 URL에 연결되어 있지 않거나, 플랫폼 감사자가 해당 페이지에 도달하기 전에 500페이지를 스캔하면, 페이지는 스캔되지 않고 테스트 결과에 포함되지 않습니다.
+   >필터에 페이지를 포함하지만 시작 URL에 연결되어 있지 않거나 Platform Auditor가 해당 페이지에 도달하기 전에 500페이지를 검사하면 페이지가 검사되지 않고 테스트 결과에 포함되지 않습니다.
 
    포함 필터는 행당 1,000자로 제한됩니다.
 
    자세한 내용은 [포함 목록](../create-audit/filters.md)을 참조하십시오.
 1. 제외 필터를 지정합니다.
 
-   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
+   [!UICONTROL 제외 목록]은 URL이 감사되지 않도록 합니다. [!UICONTROL 포함 목록]에서와 마찬가지로 완전 일치 URL, 부분 URL 또는 정규 표현식을 사용합니다.
 
    한 가지 일반적인 방법은 감사에 사용자 세션이 있는 경우 로그아웃 링크를 제외하는 것입니다(예: `/logout`은(는) `/logout` 문자열을 포함하는 모든 URL을 의미함).
 
