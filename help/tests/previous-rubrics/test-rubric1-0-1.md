@@ -1,14 +1,14 @@
 ---
-description: adobe experience platform 감사 테스트에 대한 정보
-seo-description: adobe experience platform 감사 테스트에 대한 정보
+description: Adobe Experience Platform Auditor 테스트에 대한 정보
+seo-description: Adobe Experience Platform Auditor 테스트에 대한 정보
 seo-title: 테스트 지침 1.0.1
 title: 테스트 지침 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2727'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 ## 경고 {#alerts}
 
-이 참조는 테스트에 대해 Adobe Experience Platform 감사자가 표시하는 경고에 대한 자세한 정보를 제공합니다.
+이 참조는 Adobe Experience Platform Auditor에서 테스트에 대해 표시하는 경고에 대한 자세한 정보를 제공합니다.
 
 알림은 인지해야 하는 문제를 보여주지만 점수에 영향을 주지 않습니다. 이러한 우수 사례 추천은 경우에 따라 구현에 적용되지 않을 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 구현된 변환 태그 수정</b> </p> <p>가중치: 0 </p> </td> 
    <td colname="col2"> <p>올바른 변환 태그가 사용되는지 확인합니다. </p> <p> <p>경고: 더 이상 사용되지 않는 TubeMogul 변환 태그를 사용하면 데이터가 손실될 수 있습니다. </p> </p> </td> 
-   <td colname="col3"> <p>변환 픽셀을 새로운 Advertising Cloud 이미지 전용 변환 태그로 업그레이드합니다. </p> <p>Adobe Experience Platform Launch의 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>변환 픽셀을 새로운 Advertising Cloud 이미지 전용 변환 태그로 업그레이드합니다. </p> <p>Adobe Experience Platform Launch의 Advertising Cloud 확장을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -46,7 +46,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 사용된 JS 태그 수정</b> </p> <p>가중치: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud는 최신 JavaScript 태그를 사용해야 합니다. </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud JavaScript를 최신 버전으로 업그레이드하십시오. 더 이상 사용되지 않는 JavaScript 버전을 사용하면 기능이 손실될 수 있습니다. </p> <p>Platform Launch용 Advertising Cloud 익스텐션을 사용하면 보다 손쉽게 이러한 작업을 수행할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud JavaScript를 최신 버전으로 업그레이드하십시오. 더 이상 사용되지 않는 JavaScript 버전을 사용하면 기능이 손실될 수 있습니다. </p> <p>이 작업은 Platform Launch용 Advertising Cloud 확장을 사용하여 보다 손쉽게 수행할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -59,7 +59,7 @@ ht-degree: 83%
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Advertising Cloud 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드하여 전체 Advertising Cloud 기능을 활용할 수 있습니다. </p> <p>Platform Launch용 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>Advertising Cloud 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드하여 전체 Advertising Cloud 기능을 활용할 수 있습니다. </p> <p>Platform Launch의 Advertising Cloud 확장을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -67,7 +67,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 세그먼트 픽셀 DSP 동기화 사용</b> </p> <p>가중치: 0 </p> </td> 
    <td colname="col2"> <p>TubeMogul 세그먼트 픽셀에 DSP 동기화 설정이 포함되어 있는지 확인하고 픽셀에 설정을 추가하는 것이 좋습니다. </p> <p>DSP 동기화 설정은 쿼리 문자열 매개 변수를 사용하여 결정되므로 </p> <p>태그를 실행하는 경우<span class="codeph">("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 또는 <span class="codeph">"http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 또는 <span class="codeph">"http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>그리고 태그에 URL 매개 변수 <span class="codeph">"sid="가 포함)</span> </p> <p>URL 매개 변수 <span class="codeph">"cs=0"</span> 또는<span class="codeph"> "cs=1"</span>이 <span class="codeph">있는지 확인하고, 없다면 대상 일치율이 향상될 수 있도록</span> "cs=1"을 해당 픽셀에 추가하는 것이 좋습니다. </p> </td> 
-   <td colname="col3"> <p> DSP 동기화가 발생할 수 있도록 URL 매개 변수 <span class="codeph">"cs=1"</span>을 Advertising Cloud 픽셀에 추가하여 대상 일치율을 높입니다. </p> <p>Platform Launch용 Advertising Cloud 익스텐션을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p> DSP 동기화가 발생할 수 있도록 URL 매개 변수 <span class="codeph">"cs=1"</span>을 Advertising Cloud 픽셀에 추가하여 대상 일치율을 높입니다. </p> <p>Platform Launch의 Advertising Cloud 확장을 사용하면 이러한 작업을 손쉽게 수행할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -104,7 +104,7 @@ ht-degree: 83%
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>참고: 태그가 <i>&lt;body&gt;</i>의 마지막<span class="codeph"> 태그가 되는 것이 좋습니다</span>. <span class="codeph">&lt;body&gt; </span>태그 내에 있는 경우에도 작동할 수도 있지만, 우수 사례가 아니므로 제대로 기능하지 않거나 예기치 않거나 원치 않는 결과로 작동할 수 있습니다. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch를 동기식으로 배포한 경우 페이지 본문에서 <span class="codeph">pageBottom </span>콜백 함수를 마지막으로 정의해야 합니다 </p> <p> <p>참고: 태그가 <i>&lt;body&gt;</i>의 마지막<span class="codeph"> 태그가 되는 것이 좋습니다</span>. <span class="codeph">&lt;body&gt; </span>태그 내에 있는 경우에도 작동할 수도 있지만, 우수 사례가 아니므로 제대로 기능하지 않거나 예기치 않거나 원치 않는 결과로 작동할 수 있습니다. </p> </p> </td> 
    <td colname="col3"> <p>닫기 <span class="codeph">&lt;/body&gt;</span> 태그 바로 앞에 인라인 스크립트를 추가하여 DTM 기능이 적절히 작동하도록 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ ht-degree: 83%
     <!--
       1.0.1 
     --> <p><b>Launch - 자체 호스팅</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>자체 호스팅은 캐시 제어, 타사 스크립트 종속성 감소, 퍼블리싱 프로세스 제어 강화 등을 통해 웹 사이트 성능을 더욱 강력하게 제어하기 때문에 플랫폼 런치를 로드할 때 권장되는 방법입니다. 플랫폼 론치 라이브러리는 자체 웹 호스팅 또는 CDN을 통해 호스팅 및 관리할 수 있습니다. </p> </td> 
-   <td colname="col3"> <p>Akamai CDN을 통한 플랫폼 론치 호스팅은 대부분의 경우 작동하지만 페이지 성능을 개선하기 위한 첫 번째 단계로 자동 호스팅이 구현되는 것이 좋습니다. </p> </td> 
+   <td colname="col2"> <p>Platform Launch 라이브러리는 <span class="filepath">assets.adobedtm.com</span>의 Adobe Akamai 인스턴스에서 호스팅 중입니다. </p> <p>자체 호스팅은 캐시 제어를 통해 웹 사이트 성능을 더욱 강력하게 제어하고 타사 스크립트 의존성을 줄이며 게시 프로세스를 더욱 강력하게 제어할 수 있기 때문에 Platform Launch를 로드하는 데 권장되는 방법입니다. Platform Launch 라이브러리는 자체 웹 호스팅 또는 CDN을 통해 호스팅 및 관리할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>Akamai CDN을 통한 Platform Launch 호스팅은 대부분의 경우 작동하지만 페이지 성능을 개선하기 위한 첫 번째 단계로 자체 호스팅이 구현되는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 비동기적으로 배포해야 함</b> </p> <p>가중치: 0 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>최적의 성능을 위해서는 플랫폼 시작을 비동기식으로 배포해야 합니다. </p> </td> 
-   <td colname="col3"> <p>적절한 비동기 플랫폼 실행 기능을 보장하기 위해 인라인 스크립트에 async 매개 변수를 포함합니다 </p> </td> 
+   <td colname="col2"> <p>최적의 성능을 위해 Platform Launch를 비동기적으로 배포해야 합니다. </p> </td> 
+   <td colname="col3"> <p>인라인 스크립트에 async 매개 변수를 포함시켜 적절한 비동기 Platform Launch 기능인지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -136,9 +136,9 @@ ht-degree: 83%
 
 ## 구성 {#configuration}
 
-이 참조는 플랫폼 감사자가 구성에 대해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 Platform Auditor가 구성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-구성 테스트는 구현에서 특정 설정, 값 또는 잠재적인 충돌을 검사합니다. Platform Auditor는 다른 규칙에 대해 태그를 평가하고 권장 우수 사례를 평가합니다.
+구성 테스트는 구현에서 특정 설정, 값 또는 잠재적인 충돌을 검사합니다. Platform Auditor는 다른 규칙에 대해 태그를 평가하고 우수 사례를 권장합니다.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -218,8 +218,8 @@ ht-degree: 83%
     <!--
       1.0.1 
     --> <p><b>Launch - 최신 버전</b> </p> <p>가중치: 2 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>이러한 페이지에는 최신 버전의 플랫폼 실행 코드 라이브러리(터빈)가 실행되고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. </p> </td> 
-   <td colname="col3"> <p> Platform Launch 라이브러리를 다시 빌드하고 게시하여 플랫폼 론치 라이브러리를 업데이트합니다. </p> </td> 
+   <td colname="col2"> <p>이러한 페이지에서 최신 버전의 Platform Launch 코드 라이브러리(Turbine)를 실행하고 있지 않습니다. 향상된 성능을 활용하고 최신 기능을 제공하기 위해 Experience Cloud 기술을 지원하는 코드 라이브러리가 지속적으로 업데이트 및 변경되고 있습니다. </p> </td> 
+   <td colname="col3"> <p> Platform Launch 라이브러리를 다시 구축 및 게시하여 Platform Launch 라이브러리를 업데이트합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -250,9 +250,9 @@ ht-degree: 83%
 
 ## 태그 일관성 {#tag-consistency}
 
-이 참조는 태그 일관성을 위해 플랫폼 감사자가 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 Platform Auditor가 태그 일관성을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Platform Auditor의 일관성 테스트는 스캔한 모든 페이지에서 일치하지 않는 것으로 보입니다. 이는 정확한 데이터 수집을 위해 사이트의 모든 페이지에서 동일해야 하는 값 또는 구성입니다.
+Platform Auditor의 일관성 테스트는 검사한 모든 페이지에서 일치하지 않는 것을 찾습니다. 이는 정확한 데이터 수집을 위해 사이트의 모든 페이지에서 동일해야 하는 값 또는 구성입니다.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -276,9 +276,9 @@ Platform Auditor의 일관성 테스트는 스캔한 모든 페이지에서 일�
 
 ## 태그 유무 {#tag-presence}
 
-이 참조는 플랫폼 감사자가 태그 출석을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
+이 참조는 Platform Auditor가 태그 존재 확인을 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
 
-Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른 위치에 있는지 여부를 평가합니다.
+Platform Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위치에 있는지 여부를 평가합니다.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -295,7 +295,7 @@ Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른
       1.0.1 
     --> <p><b>Advertising Cloud - 코드 유무</b> </p> <p>가중치: 5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud 태그는 DOM에서 사용할 수 없습니다. </p> </td> 
-   <td colname="col3"> <p>플랫폼 론치의 Advertising Cloud 확장을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
+   <td colname="col3"> <p>Platform Launch의 Advertising Cloud 확장을 사용하여 Advertising Cloud 태그를 구현합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -303,7 +303,7 @@ Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른
       1.0.1 
     --> <p><b>Advertising Cloud - 구현된 세그먼트 픽셀</b> </p> <p>가중치: 5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud 세그먼트 픽셀을 새로운 Advertising Cloud 이미지 전용 태그로 업그레이드합니다. 더 이상 사용되지 않는 AMO 세그먼트 태그를 사용하면 데이터가 손실될 수 있습니다. </p> </td> 
-   <td colname="col3"> <p>플랫폼 론치용 Advertising Cloud 확장을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
+   <td colname="col3"> <p>Platform Launch용 Advertising Cloud 확장을 사용하여 Advertising Cloud 세그먼트 픽셀을 구현합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -379,14 +379,14 @@ Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른
       1.0.1 
     --> <p><b> Launch - 라이브러리가 로드됨</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
    <td colname="col2"> <p> 전역 _satellite 개체를 DOM에서 찾을 수 없습니다. Launch가 설치되지 않거나 실행되지 않습니다. </p> </td> 
-   <td colname="col3"> <p>플랫폼 론치 라이브러리가 페이지에 구현되어 후속 스크립트 작업으로 인해 차단되지 않았는지 확인합니다. </p> </td> 
+   <td colname="col3"> <p>Platform Launch 라이브러리가 페이지에 구현되어 있고 후속 스크립트 활동에서 차단되지 않았는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 여러 개의 포함 스크립트가 없음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>페이지에 여러 개의 포함 스크립트가 로드되어서는 안 됩니다. 프로덕션 사이트에서는 하나의 플랫폼 실행 라이브러리만 로드해야 합니다. </p> </td> 
+   <td colname="col2"> <p>페이지에 여러 개의 포함 스크립트가 로드되어서는 안 됩니다. 프로덕션 사이트는 하나의 Platform Launch 라이브러리만 로드해야 합니다. </p> </td> 
    <td colname="col3"> <p>프로덕션 라이브러리만 페이지에 로드되고 있는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -394,16 +394,16 @@ Platform Auditor는 태그가 있는지 여부 및 페이지 코드의 올바른
     <!--
       1.0.1 
     --> <p><b>Launch - pageBottom 콜백이 &lt;body&gt;에 있음</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>페이지에서 <span class="codeph">pageBottom </span>호출을 전혀 찾을 수 없거나 <span class="codeph">&lt;head&gt;</span> 태그(또는 기타 예기치 않은 위치)에 있는 경우 이 테스트가 실패합니다. <span class="codeph">pageBottom</span>이 <span class="codeph">&lt;body&gt;</span> 태그 내 어딘가에 있는 경우에만 전달됩니다. 페이지에 전혀 없으면 작동하지 않으며 다른 두 개의 <span class="codeph">pageBottom</span> 테스트 또한 실패합니다. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> Platform Launch에 필요한 <span class="codeph">_satellite.pageBottom()</span> 콜백을 페이지의 <span class="codeph">&lt;body&gt;</span> 내에서 찾을 수 없습니다. </p> <p>페이지에서 <span class="codeph">pageBottom </span>호출을 전혀 찾을 수 없거나 <span class="codeph">&lt;head&gt;</span> 태그(또는 기타 예기치 않은 위치)에 있는 경우 이 테스트가 실패합니다. <span class="codeph">pageBottom</span>이 <span class="codeph">&lt;body&gt;</span> 태그 내 어딘가에 있는 경우에만 전달됩니다. 페이지에 전혀 없으면 작동하지 않으며 다른 두 개의 <span class="codeph">pageBottom</span> 테스트 또한 실패합니다. </p> </td> 
+   <td colname="col3"> <p>닫기 <span class="codeph">&lt;/body&gt;</span> 태그 바로 앞에 인라인 스크립트를 추가하여 Platform Launch 기능이 적절히 작동하도록 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - pageBottom 콜백은 비동기적으로 배포할 때 존재하지 않아야 합니다.</b> </p> <p>가중치: 5 </p> <p><a href="https://docs.adobe.com/content/help/ko-KR/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 추가 정보</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>페이지에서 <span class="codeph">_satellite.pageBottom()</span> 콜백이 발견되었으며, 이는 Platform Launch가 비동기적으로 배포된 경우에는 해당되지 않습니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph">_satellite.pageBottom()</span> 스크립트를 제거하여 적절한 Platform Launch 기능을 활성화합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
