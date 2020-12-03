@@ -4,9 +4,9 @@ seo-description: 이 참조는 Adobe Experience Platform Auditor에서 태그 �
 seo-title: 태그 일관성
 title: 태그 일관성
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 
