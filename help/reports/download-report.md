@@ -4,9 +4,9 @@ seo-description: 보고서는 각 URL의 전달 또는 실패 여부를 보여�
 seo-title: 보고서 다운로드
 title: 보고서 다운로드
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
