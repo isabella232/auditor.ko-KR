@@ -4,9 +4,9 @@ seo-description: 테스트를 실행하면 스코어카드에 감사 정보가 �
 seo-title: 스코어카드
 title: 스코어카드
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
