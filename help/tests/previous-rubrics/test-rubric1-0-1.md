@@ -4,9 +4,9 @@ seo-description: Adobe Experience Platform Auditor 테스트에 대한 정보
 seo-title: 테스트 지침 1.0.1
 title: 테스트 지침 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2727'
 ht-degree: 100%
 
