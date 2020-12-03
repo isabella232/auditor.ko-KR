@@ -4,9 +4,9 @@ seo-description: Adobe Experience Platform Auditor에 대한 기술 설명서.
 seo-title: 'Adobe Experience Platform Auditor에 대한 기술 설명서 '
 title: Adobe Experience Platform Auditor 개요 - 기술 설명서
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
