@@ -4,9 +4,9 @@ seo-description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 �
 seo-title: 포함 및 제외 필터
 title: 포함 및 제외 필터
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 
