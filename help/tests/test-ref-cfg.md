@@ -4,9 +4,9 @@ seo-description: 이 참조는 Adobe Experience Platform Auditor에서 구성을
 seo-title: 구성
 title: 구성
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
