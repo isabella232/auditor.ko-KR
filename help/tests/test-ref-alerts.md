@@ -4,9 +4,9 @@ seo-description: 이 참조는 Adobe Experience Platform Auditor에서 테스트
 seo-title: 경고
 title: 경고
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
