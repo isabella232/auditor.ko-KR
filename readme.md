@@ -1,9 +1,9 @@
 ---
 source-git-commit: 58d87e06bc7126ba799d6063278ebc45f562928f
-workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+translation-type: ht
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # 기여자 문서
