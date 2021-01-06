@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe experience platform auditor
+product: auditor
 sub-product: Adobe Experience Platform Auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 도움말
@@ -8,7 +8,7 @@ user-guide-description: 개선 방법에 대한 정보와 함께 Adobe Experienc
 breadcrumb-title: Platform Auditor 안내서
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+source-git-commit: c5f155d859486320aeec497946e35b7c06a3de7d
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
