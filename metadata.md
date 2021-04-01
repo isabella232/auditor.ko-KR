@@ -1,18 +1,18 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Platform, Data Collection
 solution-title: 학습 및 지원
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-image: help/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/kr/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.ko-KR
 index: true
-translation-type: ht
-source-git-commit: 2e674de10ad6767612d2962789daa015cbfb5946
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 
