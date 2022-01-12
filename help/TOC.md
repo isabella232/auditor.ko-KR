@@ -7,7 +7,7 @@ user-guide-title: Experience Platform Auditor 도움말
 user-guide-description: 개선 방법에 대한 정보와 함께 Adobe Experience Cloud 구현에 등급을 매기는 보고서를 생성합니다.
 breadcrumb-title: Platform Auditor 안내서
 source-git-commit: 9876e66a70de679cf9eadb8fcc911cccf9308f88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '33'
 ht-degree: 100%
 
