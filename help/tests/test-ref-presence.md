@@ -1,17 +1,16 @@
 ---
 description: 이 참조는 Adobe Experience Platform Auditor에서 태그가 있는지 확인하기 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Adobe Experience Platform Auditor에서 태그가 있는지 확인하기 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-title: 태그 유무
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-title: Tag presence
 title: 태그 유무
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
-
 
 # 태그 유무
 

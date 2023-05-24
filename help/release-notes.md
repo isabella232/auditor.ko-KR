@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor 릴리스 정보
-seo-description: Adobe Experience Platform Auditor 릴리스 정보
-seo-title: Adobe Experience Platform Auditor 릴리스 정보
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Adobe Experience Platform Auditor 릴리스 정보
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
-
 
 # Adobe Experience Platform Auditor 릴리스 정보{#auditor-release-notes}
 

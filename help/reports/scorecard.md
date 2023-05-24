@@ -1,17 +1,16 @@
 ---
 description: 테스트를 실행하면 스코어카드에 감사 정보가 표시됩니다.
-seo-description: 테스트를 실행하면 스코어카드에 감사 정보가 표시됩니다.
-seo-title: 스코어카드
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: 스코어카드
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 스코어카드{#scorecard}
 

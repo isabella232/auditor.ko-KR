@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor에서 감사 새로 만들기
-seo-description: Adobe Experience Platform Auditor에서 감사 새로 만들기
-seo-title: Adobe Experience Platform Auditor에서 감사 새로 만들기
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor에서 감사 새로 만들기
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
-
 
 # 새 감사 만들기{#create-a-new-audit}
 

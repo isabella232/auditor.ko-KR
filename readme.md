@@ -7,4 +7,4 @@ ht-degree: 11%
 ---
 # Auditor
 
-보관됨. https://experienceleague.adobe.com/docs/discontinued/using/overview.html 참조
+보관됨. https://experienceleague.adobe.com/docs/discontinued/using/overview.html을 참조하십시오.

@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor 시작하기
-seo-description: Adobe Experience Platform Auditor 시작하기
-seo-title: 시작하기
+seo-description: Get started with Adobe Experience Platform Auditor
+seo-title: Getting started
 title: 시작하기
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # 시작하기{#getting-started}
 

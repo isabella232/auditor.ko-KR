@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor 테스트에 대한 정보
-seo-description: Adobe Experience Platform Auditor 테스트에 대한 정보
-seo-title: 테스트 지침 0.0.8
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 0.0.8
 title: 테스트 지침 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '1998'
 ht-degree: 100%
 
 ---
-
 
 # 테스트 지침 0.0.8{#test-rubric}
 

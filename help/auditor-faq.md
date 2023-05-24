@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor에 대한 일반적인 질문 및 답변
-seo-description: Adobe Experience Platform Auditor에 대한 일반적인 질문 및 답변
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
 seo-title: Adobe Experience Platform Auditor FAQ
 title: Adobe Experience Platform Auditor FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Platform Auditor FAQ{#auditor-faq}
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 * [IP 주소를 허용 목록에 추가하여 페이지를 승인할 수 있습니까?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Platform Auditor는 Observepoint와 동일한 IP 범위를 사용합니까?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
-## Adobe Experience Platform Auditor의 정의 {#section-c4a9bc8d8eef41598c27e0951a2518e4}
+## Adobe Experience Platform Auditor의 정의  {#section-c4a9bc8d8eef41598c27e0951a2518e4}
 
 Platform Auditor는 ObservePoint와 함께 개발된 Adobe Experience Cloud의 서비스로, 디지털 구현의 유효성을 검사하는 전문 도구입니다.
 

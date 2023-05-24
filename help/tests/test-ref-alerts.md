@@ -1,17 +1,16 @@
 ---
 description: 이 참조는 Adobe Experience Platform Auditor에서 테스트에 대해 표시하는 경고에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Adobe Experience Platform Auditor에서 테스트에 대해 표시하는 경고에 대한 자세한 정보를 제공합니다.
-seo-title: 경고
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: 경고
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '920'
 ht-degree: 100%
 
 ---
-
 
 # 경고{#alerts}
 
@@ -129,4 +128,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-

@@ -1,13 +1,12 @@
 ---
 description: Adobe Experience Platform Auditor는 ObservePoint와 함께 개발된 Adobe Experience Platform의 서비스로, 디지털 구현의 유효성을 검사하는 전문 도구입니다.
-seo-description: Adobe Experience Platform Auditor는 ObservePoint와 함께 개발된 Adobe Experience Platform의 서비스로, 디지털 구현의 유효성을 검사하는 전문 도구입니다.
+seo-description: Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with ObservePoint, experts in validating digital implementations.
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---

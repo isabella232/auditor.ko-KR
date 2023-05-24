@@ -1,21 +1,20 @@
 ---
 description: Adobe Experience Platform Auditor 테스트에 대한 정보
-seo-description: Adobe Experience Platform Auditor 테스트에 대한 정보
-seo-title: 테스트 지침 1.0.1
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 1.0.1
 title: 테스트 지침 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
 
-
 # 테스트 지침 1.0.1{#test-rubric}
 
-## 테스트 지침 1.0.1{#topic-25ed23afdfaf4a12b149ff276965b043}
+## 테스트 지침 1.0.1 {#topic-25ed23afdfaf4a12b149ff276965b043}
 
 ## 경고 {#alerts}
 
@@ -426,4 +425,3 @@ Platform Auditor는 태그의 존재 여부, 페이지 코드가 올바른 위�
   </tr> 
  </tbody> 
 </table>
-

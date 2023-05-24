@@ -1,17 +1,16 @@
 ---
 description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 있는 링크를 제한합니다. 제외 필터는 감사에서 링크를 크롤링하지 않도록 합니다.
-seo-description: 포함 필터는 시작 URL에서 감사가 크롤링할 수 있는 링크를 제한합니다. 제외 필터는 감사에서 링크를 크롤링하지 않도록 합니다.
-seo-title: 포함 및 제외 필터
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: 포함 및 제외 필터
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # 포함 및 제외 필터{#include-and-exclude-filters}
 

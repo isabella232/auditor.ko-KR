@@ -1,17 +1,16 @@
 ---
 description: 감사 목록 페이지에는 모든 감사에 대한 정보가 표시됩니다.
-seo-description: 감사 목록 페이지에는 모든 감사에 대한 정보가 표시됩니다.
-seo-title: 감사 목록 페이지
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: 감사 목록 페이지
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 감사 목록 페이지{#audit-list-page}
 

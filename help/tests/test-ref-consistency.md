@@ -1,17 +1,16 @@
 ---
 description: 이 참조는 Adobe Experience Platform Auditor에서 태그 일관성을 확인하기 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-description: 이 참조는 Adobe Experience Platform Auditor에서 태그 일관성을 확인하기 위해 수행하는 테스트에 대한 자세한 정보를 제공합니다.
-seo-title: 태그 일관성
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
+seo-title: Tag consistency
 title: 태그 일관성
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 681cf2f8-e022-4fb0-a06a-b4986710f501
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # 태그 일관성
 
